@@ -1,0 +1,16 @@
+.postPage {
+	width: 800px;
+	margin-top: 50px;
+}
+
+.buttonBack {
+	display: flex;
+}
+
+.postItem {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	border: 2px solid teal;
+	padding: 15px;
+}

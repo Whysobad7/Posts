@@ -1,0 +1,16 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+}
+.link {
+	font-size: 1.1rem;
+	margin-right: 1rem;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 700;
+}
+
+.link:hover {
+	color: teal;
+	transition: all 0.3s ease;
+}

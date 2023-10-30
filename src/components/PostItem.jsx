@@ -24,7 +24,7 @@ const PostItem = (props) => {
 			<div className="post__content">
 				<strong>{props.number}. {props.post.title}</strong>
 				<div>
-					{props.post.body.length > 140 ? formatText(props.post.body, 240) : props.post.body}
+					{props.post.body.length > 140 ? formatText(props.post.body, 140) : props.post.body}
 				</div>
 			</div>
 			<div className='post__btns'>

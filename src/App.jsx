@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout'
 import PostPage from "./pages/PostPage";
 import Main from "./Main";
